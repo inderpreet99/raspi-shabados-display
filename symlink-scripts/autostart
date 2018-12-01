@@ -1,0 +1,9 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+#@xscreensaver -no-splash
+point-rpi
+@xset s off
+@xset -dpms
+@xset s noblank
+@unclutter &
+@chromium-browser http://192.168.1.99:42424/display --start-fullscreen --kiosk --incognito --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars --disk-cache-dir=/dev/null --disable-session-crashed-bubble
